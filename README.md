@@ -1,6 +1,1 @@
-<h1 align = "center" > WEB DEVELOPMENT </h1>
-<style>
-  h1 {
-    fontsize : 65px;
-  }
-</style>
+<h1 align = "center" style = "font-size: 75px;" > WEB DEVELOPMENT </h1>

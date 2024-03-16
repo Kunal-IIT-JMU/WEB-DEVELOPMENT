@@ -1,1 +1,13 @@
+Web Development has two basic parts : Frontend and Backend Development.
+Frontend Development means developing the part of a website which is displayed to the user and the user can interact with.
+Backend Develpment means developing the part of a website which is performed at the server and the user can't see these processes going on.
 
+We Basically use 6 main languages or tools to make a basic website these are :
+1. HTML = This is used to structure the website.
+2. CSS = This is used to make the website attractive and beautiful.
+3. JAVASCRIPT = This is used to provide website some Funtionality and Interactiveness.
+4. Framework = These are used to speed up application development, reduce errors, simplify debugging and increase reliability.
+5. Version Control = These are used to protects source code from both catastrophe and the casual degradation of human error and unintended consequences. 
+6. Databases = These are used to allow web developers to organise data in logical structures and retrieve it quickly and efficiently when needed.
+
+First three come under Frontend Development while other three come under the Backend and These all come come togethor to make a basic website.

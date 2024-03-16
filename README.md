@@ -1,1 +1,1 @@
-<h1 textsize = "85"> WEB DEVELOPMENT </h1>
+<h1 align = "center" > WEB DEVELOPMENT </h1>

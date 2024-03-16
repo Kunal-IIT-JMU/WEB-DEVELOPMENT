@@ -1,81 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="Style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
 </head>
-<body >
-    <form action="">
-
-        <!-- heading of the form -->
-        <h1 align = "center" style="font-size: 50px;">Payment Form</h1>
-        <h2>Contact Information</h2>
-
-        <!-- Name Field to enter name -->
-        <p> Name : <input type="text" name = "name"></p>
-
-        <!-- radio type input for Gender -->
-        <fieldset >
-            <legend align = "center"> Gender</legend>
-            <p align = "left" style="font-size: 20px;">
-                Male <input type="radio" name="Gender" id="Male"> 
-                <br>
-                Female <input type="radio" name="Gender" id="Female">
-                <br>
-                Other <input type="radio" name="Gender" id="Other">
-                <br>
+<div class = "box">
+    <body >
+        <form action="">
+    
+            <!-- heading of the form -->
+            <h1 align = "center" style="font-size: 50px;">Payment Form</h1>
+            <h2 align = "center">Contact Information</h2>
+            <h4 align = "center">(Required Fields are Followed by "*" )</h4>
+    
+            <!-- Name Field to enter name -->
+            <p> Name : *<input type="text" name = "name" required></p>
+    
+            <!-- radio type input for Gender -->
+            <fieldset >
+                <legend align = "center"> Gender</legend>
+                <p align = "left" style="font-size: 20px;">
+                    Male <input type="radio" name="Gender" id="Male"> 
+                    <br>
+                    Female <input type="radio" name="Gender" id="Female">
+                    <br>
+                    Other <input type="radio" name="Gender" id="Other">
+                    <br>
+                </p>
+            </fieldset>
+    
+            <!-- Text area type input for the Address -->
+            <p>Address : 
+                <textarea name="Address" id="Address" cols="60" rows="8" required></textarea>    
             </p>
-        </fieldset>
-
-        <!-- Text area type input for the Address -->
-        <p>Address : 
-            <textarea name="Address" id="Address" cols="60" rows="8"></textarea>    
-        </p>
-
-        <!-- Email Input -->
-        <p>Email :
-            <input type="email" name="email" id="email">
-        </p>
-
-        <!-- Pincode Input -->
-        <p>Pincode :
-            <input type="number" name="Pincode" id="Pincode">
-        </p>
-
-        <!-- Heading 2 -->
-        <p align = "center" style="font-size: 25px;">Payment Information</p>
-
-        <!-- card type input -->
-        <p>Card Type : 
-            <select name="card_type" id="card_type">
-                <option value="">--Select a card type--</option>
-                <option value="Visa">Visa</option>
-                <option value="MasterCard">Mastercard</option>
-                <option value="Rupay">Rupay</option>
-            </select>
-        </p>
-
-        <!-- Card Number Input -->
-        <p>Card Number :
-            <input type="number" name="card_number" id="card_number">
-        </p>
-
-        <!-- Expiry date of card -->
-        <p>Expiry Date : 
-            <input type="date" name="expiry_date" id="expiry_date">
-        </p>
-
-        <!-- CVV Input -->
-        <p>CVV : 
-            <input type="password" name="CVV" id="CVV">
-        </p>
-
-        <p align = "center" >
-            <input type="submit" value="Pay Now" style="font-size: 20px;">
-            <input type="reset" value=" Reset " style="font-size: 20px;">
-        </p>
-
-    </form>
-</body>
+    
+            <!-- Email Input -->
+            <p>Email :
+                <input type="email" name="email" id="email" required>
+            </p>
+    
+            <!-- Pincode Input -->
+            <p>Pincode :
+                <input type="number" name="Pincode" id="Pincode" required>
+            </p>
+    
+            <!-- Heading 2 -->
+            <p align = "center" style="font-size: 25px;">Payment Information</p>
+    
+            <!-- card type input -->
+            <p>Card Type : 
+                <select name="card_type" id="card_type" required>
+                    <option value="">--Select a card type--</option>
+                    <option value="Visa">Visa</option>
+                    <option value="MasterCard">Mastercard</option>
+                    <option value="Rupay">Rupay</option>
+                </select>
+            </p>
+    
+            <!-- Card Number Input -->
+            <p>Card Number :
+                <input type="number" name="card_number" id="card_number" required>
+            </p>
+    
+            <!-- Expiry date of card -->
+            <p>Expiry Date : 
+                <input type="date" name="expiry_date" id="expiry_date" required>
+            </p>
+    
+            <!-- CVV Input -->
+            <p>CVV : 
+                <input type="password" name="CVV" id="CVV" required>
+            </p>
+    
+            <p align = "center" >
+                <input type="submit" value="Pay Now" style="font-size: 20px;">
+                <input type="reset" value=" Reset " style="font-size: 20px;">
+            </p>
+    
+        </form>
+    </body>
+</div>
 </html>

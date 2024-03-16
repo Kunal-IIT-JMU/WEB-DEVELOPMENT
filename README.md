@@ -1,1 +1,1 @@
-<h1 textsize = "45"> WEB DEVELOPMENT </h1>
+<h1 textsize = "85"> WEB DEVELOPMENT </h1>
